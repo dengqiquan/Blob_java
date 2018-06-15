@@ -1,0 +1,447 @@
+2018-06-14 14:57:17.982  INFO 7484 --- [main] com.avie.ltd.Application                 : Starting Application on dqq-PC with PID 7484 (D:\2018\June\AetsAppRandom\BlobDemo\target\classes started by dqq in D:\2018\June\AetsAppRandom\BlobDemo)
+2018-06-14 14:57:17.992  INFO 7484 --- [main] com.avie.ltd.Application                 : No active profile set, falling back to default profiles: default
+2018-06-14 14:57:18.064  INFO 7484 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63798ca7: startup date [Thu Jun 14 14:57:18 CST 2018]; root of context hierarchy
+2018-06-14 14:57:19.363  WARN 7484 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.avie.ltd.dao]' package. Please check your configuration.
+2018-06-14 14:57:19.455  WARN 7484 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.avie.ltd]' package. Please check your configuration.
+2018-06-14 14:57:19.508  INFO 7484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-06-14 14:57:20.019  INFO 7484 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$af301238] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-14 14:57:20.747  INFO 7484 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9002 (http)
+2018-06-14 14:57:20.758  INFO 7484 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-06-14 14:57:20.759  INFO 7484 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.5
+2018-06-14 14:57:20.870  INFO 7484 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-14 14:57:20.870  INFO 7484 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2806 ms
+2018-06-14 14:57:21.063  INFO 7484 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-14 14:57:21.067  INFO 7484 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-14 14:57:21.067  INFO 7484 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-14 14:57:21.068  INFO 7484 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-14 14:57:21.068  INFO 7484 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-14 14:57:21.117  INFO 7484 --- [main] com.avie.ltd.Application                 : =================初始化数据字典到缓存中===================
+2018-06-14 14:57:22.111  INFO 7484 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/blob/getStream]}" onto public void com.avie.ltd.controller.BlobController.getMp3or4(javax.servlet.http.HttpServletRequest)
+2018-06-14 14:57:22.112  INFO 7484 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2018-06-14 14:57:22.114  INFO 7484 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-06-14 14:57:22.114  INFO 7484 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-06-14 14:57:22.115  INFO 7484 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-06-14 14:57:22.117  INFO 7484 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-14 14:57:22.117  INFO 7484 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-14 14:57:22.540  INFO 7484 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63798ca7: startup date [Thu Jun 14 14:57:18 CST 2018]; root of context hierarchy
+2018-06-14 14:57:22.609  INFO 7484 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-14 14:57:22.609  INFO 7484 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-14 14:57:22.653  INFO 7484 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-14 14:57:23.227  INFO 7484 --- [main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63798ca7: startup date [Thu Jun 14 14:57:18 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-06-14 14:57:23.229  INFO 7484 --- [main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-06-14 14:57:23.252  WARN 7484 --- [main] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-06-14 14:57:23.571  INFO 7484 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-06-14 14:57:23.582  INFO 7484 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-06-14 14:57:23.604  INFO 7484 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2018-06-14 14:57:23.612  INFO 7484 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-06-14 14:57:23.616  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 14:57:23.619  INFO 7484 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getMp3or4 belongs to groups: [[ResourceGroup{groupName='blob-controller', position=0, controller=com.avie.ltd.controller.BlobController}]] 
+2018-06-14 14:57:23.620  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 14:57:23.620  INFO 7484 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: error belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.BasicErrorController}]] 
+2018-06-14 14:57:23.621  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 14:57:23.621  INFO 7484 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: errorHtml belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.BasicErrorController}]] 
+2018-06-14 14:57:23.624  INFO 7484 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/basic-error-controller Description: basic-error-controller Position: 0
+2018-06-14 14:57:23.625  INFO 7484 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/blob-controller Description: blob-controller Position: 0
+2018-06-14 14:57:23.641  INFO 7484 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-06-14 14:57:23.641  INFO 7484 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-06-14 14:57:23.648  INFO 7484 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-06-14 14:57:23.648  INFO 7484 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-06-14 14:57:23.653  INFO 7484 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2018-06-14 14:57:23.654  INFO 7484 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2018-06-14 14:57:23.664  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 14:57:23.667  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 14:57:23.670  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 14:57:23.672  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 14:57:23.673  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 14:57:23.674  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 14:57:23.675  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 14:57:23.677  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 14:57:23.678  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 14:57:23.679  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 14:57:23.680  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 14:57:23.681  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 14:57:23.682  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 14:57:23.683  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 14:57:23.685  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 14:57:23.686  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 14:57:23.690  INFO 7484 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2018-06-14 14:57:23.690  INFO 7484 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key org.springframework.web.servlet.ModelAndView(true)
+2018-06-14 14:57:23.691  INFO 7484 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2018-06-14 14:57:23.691  INFO 7484 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2018-06-14 14:57:23.718  INFO 7484 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2018-06-14 14:57:23.718  INFO 7484 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key org.springframework.web.servlet.ModelAndView(true)
+2018-06-14 14:57:23.718  INFO 7484 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2018-06-14 14:57:23.718  INFO 7484 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2018-06-14 14:57:23.719  INFO 7484 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2018-06-14 14:57:23.719  INFO 7484 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2018-06-14 14:57:23.721  INFO 7484 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2018-06-14 14:57:23.721  INFO 7484 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2018-06-14 14:57:23.721  INFO 7484 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2018-06-14 14:57:23.721  INFO 7484 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2018-06-14 14:57:23.722  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 14:57:23.723  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 14:57:23.724  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 14:57:23.725  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 14:57:23.726  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 14:57:23.727  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 14:57:23.728  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 14:57:23.729  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 14:57:23.730  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 14:57:23.732  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 14:57:23.733  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 14:57:23.734  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 14:57:23.734  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 14:57:23.735  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 14:57:23.736  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 14:57:23.737  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 14:57:23.750  INFO 7484 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.Void(true)
+2018-06-14 14:57:23.751  INFO 7484 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.Void(true)
+2018-06-14 14:57:23.751  INFO 7484 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.Void(true)
+2018-06-14 14:57:23.751  INFO 7484 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.Void(true)
+2018-06-14 14:57:23.751  INFO 7484 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /blob/getStream.com.avie.ltd.controller.BlobController.getMp3or4.DefaultGenericTypeNamingStrategy
+2018-06-14 14:57:23.751  INFO 7484 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /blob/getStream.com.avie.ltd.controller.BlobController.getMp3or4.DefaultGenericTypeNamingStrategy
+2018-06-14 14:57:23.751  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 14:57:23.752  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 14:57:23.752  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 14:57:23.753  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 14:57:23.753  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 14:57:23.753  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 14:57:23.754  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 14:57:23.754  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 14:57:23.754  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 14:57:23.755  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 14:57:23.755  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 14:57:23.755  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 14:57:23.756  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 14:57:23.756  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 14:57:23.756  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 14:57:23.757  INFO 7484 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 14:57:24.191  INFO 7484 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9002 (http)
+2018-06-14 14:57:24.197  INFO 7484 --- [main] com.avie.ltd.Application                 : Started Application in 7.415 seconds (JVM running for 9.08)
+2018-06-14 15:00:41.146  INFO 6452 --- [main] com.avie.ltd.Application                 : Starting Application on dqq-PC with PID 6452 (D:\2018\June\AetsAppRandom\BlobDemo\target\classes started by dqq in D:\2018\June\AetsAppRandom\BlobDemo)
+2018-06-14 15:00:41.150  INFO 6452 --- [main] com.avie.ltd.Application                 : No active profile set, falling back to default profiles: default
+2018-06-14 15:00:41.298  INFO 6452 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63798ca7: startup date [Thu Jun 14 15:00:41 CST 2018]; root of context hierarchy
+2018-06-14 15:00:42.438  WARN 6452 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.avie.ltd.dao]' package. Please check your configuration.
+2018-06-14 15:00:42.514  WARN 6452 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.avie.ltd]' package. Please check your configuration.
+2018-06-14 15:00:42.565  INFO 6452 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-06-14 15:00:43.043  INFO 6452 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b662b7f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-14 15:00:43.877  INFO 6452 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9006 (http)
+2018-06-14 15:00:43.891  INFO 6452 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-06-14 15:00:43.892  INFO 6452 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.5
+2018-06-14 15:00:44.363  INFO 6452 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-14 15:00:44.363  INFO 6452 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3065 ms
+2018-06-14 15:00:44.565  INFO 6452 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-14 15:00:44.570  INFO 6452 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-14 15:00:44.570  INFO 6452 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-14 15:00:44.570  INFO 6452 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-14 15:00:44.571  INFO 6452 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-14 15:00:44.613  INFO 6452 --- [main] com.avie.ltd.Application                 : =================初始化数据字典到缓存中===================
+2018-06-14 15:00:45.426  INFO 6452 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/blob/getStream]}" onto public void com.avie.ltd.controller.BlobController.getMp3or4(javax.servlet.http.HttpServletRequest)
+2018-06-14 15:00:45.427  INFO 6452 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2018-06-14 15:00:45.429  INFO 6452 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-06-14 15:00:45.430  INFO 6452 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-06-14 15:00:45.431  INFO 6452 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-06-14 15:00:45.432  INFO 6452 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-14 15:00:45.433  INFO 6452 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-14 15:00:45.704  INFO 6452 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63798ca7: startup date [Thu Jun 14 15:00:41 CST 2018]; root of context hierarchy
+2018-06-14 15:00:45.763  INFO 6452 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-14 15:00:45.763  INFO 6452 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-14 15:00:45.807  INFO 6452 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-14 15:00:46.322  INFO 6452 --- [main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63798ca7: startup date [Thu Jun 14 15:00:41 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-06-14 15:00:46.323  INFO 6452 --- [main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-06-14 15:00:46.344  WARN 6452 --- [main] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-06-14 15:00:46.640  INFO 6452 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-06-14 15:00:46.652  INFO 6452 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-06-14 15:00:46.672  INFO 6452 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2018-06-14 15:00:46.681  INFO 6452 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-06-14 15:00:46.686  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:00:46.688  INFO 6452 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getMp3or4 belongs to groups: [[ResourceGroup{groupName='blob-controller', position=0, controller=com.avie.ltd.controller.BlobController}]] 
+2018-06-14 15:00:46.689  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:00:46.689  INFO 6452 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: error belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.BasicErrorController}]] 
+2018-06-14 15:00:46.689  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:00:46.690  INFO 6452 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: errorHtml belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.BasicErrorController}]] 
+2018-06-14 15:00:46.693  INFO 6452 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/blob-controller Description: blob-controller Position: 0
+2018-06-14 15:00:46.694  INFO 6452 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/basic-error-controller Description: basic-error-controller Position: 0
+2018-06-14 15:00:46.709  INFO 6452 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-06-14 15:00:46.709  INFO 6452 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-06-14 15:00:46.716  INFO 6452 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-06-14 15:00:46.716  INFO 6452 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-06-14 15:00:46.721  INFO 6452 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2018-06-14 15:00:46.721  INFO 6452 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2018-06-14 15:00:46.731  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:00:46.735  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:00:46.739  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:00:46.741  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:00:46.742  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:00:46.744  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:00:46.747  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:00:46.748  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:00:46.750  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:00:46.753  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:00:46.755  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:00:46.756  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:00:46.757  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:00:46.759  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:00:46.760  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:00:46.761  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:00:46.765  INFO 6452 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2018-06-14 15:00:46.766  INFO 6452 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key org.springframework.web.servlet.ModelAndView(true)
+2018-06-14 15:00:46.767  INFO 6452 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2018-06-14 15:00:46.767  INFO 6452 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2018-06-14 15:00:46.793  INFO 6452 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2018-06-14 15:00:46.793  INFO 6452 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key org.springframework.web.servlet.ModelAndView(true)
+2018-06-14 15:00:46.794  INFO 6452 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2018-06-14 15:00:46.794  INFO 6452 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2018-06-14 15:00:46.795  INFO 6452 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2018-06-14 15:00:46.795  INFO 6452 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2018-06-14 15:00:46.796  INFO 6452 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2018-06-14 15:00:46.796  INFO 6452 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2018-06-14 15:00:46.797  INFO 6452 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2018-06-14 15:00:46.797  INFO 6452 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2018-06-14 15:00:46.798  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:00:46.799  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:00:46.799  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:00:46.800  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:00:46.801  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:00:46.802  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:00:46.803  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:00:46.804  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:00:46.805  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:00:46.806  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:00:46.807  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:00:46.808  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:00:46.809  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:00:46.810  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:00:46.811  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:00:46.812  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:00:46.825  INFO 6452 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.Void(true)
+2018-06-14 15:00:46.825  INFO 6452 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.Void(true)
+2018-06-14 15:00:46.825  INFO 6452 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.Void(true)
+2018-06-14 15:00:46.825  INFO 6452 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.Void(true)
+2018-06-14 15:00:46.825  INFO 6452 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /blob/getStream.com.avie.ltd.controller.BlobController.getMp3or4.DefaultGenericTypeNamingStrategy
+2018-06-14 15:00:46.825  INFO 6452 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /blob/getStream.com.avie.ltd.controller.BlobController.getMp3or4.DefaultGenericTypeNamingStrategy
+2018-06-14 15:00:46.826  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:00:46.826  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:00:46.827  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:00:46.827  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:00:46.827  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:00:46.828  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:00:46.828  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:00:46.828  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:00:46.829  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:00:46.829  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:00:46.829  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:00:46.830  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:00:46.830  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:00:46.830  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:00:46.831  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:00:46.831  INFO 6452 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:00:46.897  INFO 6452 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9006 (http)
+2018-06-14 15:00:46.903  INFO 6452 --- [main] com.avie.ltd.Application                 : Started Application in 6.139 seconds (JVM running for 6.785)
+2018-06-14 15:01:55.220  INFO 6452 --- [http-nio-9006-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-14 15:01:55.220  INFO 6452 --- [http-nio-9006-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-14 15:01:55.258  INFO 6452 --- [http-nio-9006-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 38 ms
+2018-06-14 15:06:19.085 ERROR 6452 --- [http-nio-9006-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed; nested exception is java.lang.Error: Unresolved compilation problems: 
+	BufferedInputStream cannot be resolved to a type
+	BufferedInputStream cannot be resolved to a type
+	FileInputStream cannot be resolved to a type
+	The method getResponse() is undefined for the type BlobController
+	The method getResponse() is undefined for the type BlobController
+	The method getResponse() is undefined for the type BlobController
+	The method getResponse() is undefined for the type BlobController
+	The method getResponse() is undefined for the type BlobController
+	The method getResponse() is undefined for the type BlobController
+	The method getResponse() is undefined for the type BlobController
+] with root cause
+
+java.lang.Error: Unresolved compilation problems: 
+	BufferedInputStream cannot be resolved to a type
+	BufferedInputStream cannot be resolved to a type
+	FileInputStream cannot be resolved to a type
+	The method getResponse() is undefined for the type BlobController
+	The method getResponse() is undefined for the type BlobController
+	The method getResponse() is undefined for the type BlobController
+	The method getResponse() is undefined for the type BlobController
+	The method getResponse() is undefined for the type BlobController
+	The method getResponse() is undefined for the type BlobController
+	The method getResponse() is undefined for the type BlobController
+
+	at com.avie.ltd.controller.BlobController.getMp3or4(BlobController.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:114)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-06-14 15:12:22.671  INFO 7584 --- [main] com.avie.ltd.Application                 : Starting Application on dqq-PC with PID 7584 (D:\2018\June\AetsAppRandom\BlobDemo\target\classes started by dqq in D:\2018\June\AetsAppRandom\BlobDemo)
+2018-06-14 15:12:22.680  INFO 7584 --- [main] com.avie.ltd.Application                 : No active profile set, falling back to default profiles: default
+2018-06-14 15:12:22.831  INFO 7584 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63798ca7: startup date [Thu Jun 14 15:12:22 CST 2018]; root of context hierarchy
+2018-06-14 15:12:24.027  WARN 7584 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.avie.ltd.dao]' package. Please check your configuration.
+2018-06-14 15:12:24.101  WARN 7584 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.avie.ltd]' package. Please check your configuration.
+2018-06-14 15:12:24.152  INFO 7584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-06-14 15:12:24.612  INFO 7584 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6d33a845] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-06-14 15:12:25.325  INFO 7584 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9006 (http)
+2018-06-14 15:12:25.336  INFO 7584 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-06-14 15:12:25.337  INFO 7584 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.5
+2018-06-14 15:12:25.451  INFO 7584 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-14 15:12:25.452  INFO 7584 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2621 ms
+2018-06-14 15:12:25.642  INFO 7584 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-14 15:12:25.647  INFO 7584 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-14 15:12:25.648  INFO 7584 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-14 15:12:25.648  INFO 7584 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-14 15:12:25.648  INFO 7584 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-14 15:12:25.690  INFO 7584 --- [main] com.avie.ltd.Application                 : =================初始化数据字典到缓存中===================
+2018-06-14 15:12:26.515  INFO 7584 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/blob/getStream]}" onto public void com.avie.ltd.controller.BlobController.getMp3or4(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-14 15:12:26.517  INFO 7584 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2018-06-14 15:12:26.519  INFO 7584 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-06-14 15:12:26.520  INFO 7584 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-06-14 15:12:26.520  INFO 7584 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-06-14 15:12:26.522  INFO 7584 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-14 15:12:26.522  INFO 7584 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-14 15:12:26.783  INFO 7584 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63798ca7: startup date [Thu Jun 14 15:12:22 CST 2018]; root of context hierarchy
+2018-06-14 15:12:26.842  INFO 7584 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-14 15:12:26.842  INFO 7584 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-14 15:12:26.885  INFO 7584 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-14 15:12:27.371  INFO 7584 --- [main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@63798ca7: startup date [Thu Jun 14 15:12:22 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+2018-06-14 15:12:27.372  INFO 7584 --- [main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-06-14 15:12:27.394  WARN 7584 --- [main] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2018-06-14 15:12:27.685  INFO 7584 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-06-14 15:12:27.696  INFO 7584 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-06-14 15:12:27.718  INFO 7584 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2018-06-14 15:12:27.726  INFO 7584 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-06-14 15:12:27.730  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:12:27.732  INFO 7584 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getMp3or4 belongs to groups: [[ResourceGroup{groupName='blob-controller', position=0, controller=com.avie.ltd.controller.BlobController}]] 
+2018-06-14 15:12:27.733  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:12:27.733  INFO 7584 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: error belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.BasicErrorController}]] 
+2018-06-14 15:12:27.734  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:12:27.734  INFO 7584 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: errorHtml belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.BasicErrorController}]] 
+2018-06-14 15:12:27.737  INFO 7584 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/blob-controller Description: blob-controller Position: 0
+2018-06-14 15:12:27.739  INFO 7584 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/basic-error-controller Description: basic-error-controller Position: 0
+2018-06-14 15:12:27.755  INFO 7584 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-06-14 15:12:27.755  INFO 7584 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-06-14 15:12:27.762  INFO 7584 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-06-14 15:12:27.762  INFO 7584 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-06-14 15:12:27.767  INFO 7584 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2018-06-14 15:12:27.767  INFO 7584 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2018-06-14 15:12:27.778  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:12:27.781  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:12:27.784  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:12:27.785  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:12:27.789  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:12:27.790  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:12:27.791  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:12:27.792  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:12:27.793  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:12:27.794  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:12:27.795  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:12:27.796  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:12:27.797  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:12:27.798  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:12:27.800  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:12:27.802  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-06-14 15:12:27.807  INFO 7584 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2018-06-14 15:12:27.807  INFO 7584 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key org.springframework.web.servlet.ModelAndView(true)
+2018-06-14 15:12:27.808  INFO 7584 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2018-06-14 15:12:27.808  INFO 7584 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2018-06-14 15:12:27.833  INFO 7584 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2018-06-14 15:12:27.833  INFO 7584 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key org.springframework.web.servlet.ModelAndView(true)
+2018-06-14 15:12:27.834  INFO 7584 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2018-06-14 15:12:27.834  INFO 7584 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2018-06-14 15:12:27.835  INFO 7584 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2018-06-14 15:12:27.835  INFO 7584 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2018-06-14 15:12:27.836  INFO 7584 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2018-06-14 15:12:27.837  INFO 7584 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2018-06-14 15:12:27.837  INFO 7584 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2018-06-14 15:12:27.837  INFO 7584 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2018-06-14 15:12:27.838  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:12:27.839  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:12:27.840  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:12:27.841  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:12:27.842  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:12:27.843  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:12:27.844  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:12:27.845  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:12:27.846  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:12:27.848  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:12:27.849  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:12:27.850  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:12:27.851  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:12:27.852  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:12:27.853  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:12:27.854  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-06-14 15:12:27.866  INFO 7584 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.Void(true)
+2018-06-14 15:12:27.867  INFO 7584 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.Void(true)
+2018-06-14 15:12:27.867  INFO 7584 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.Void(true)
+2018-06-14 15:12:27.867  INFO 7584 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.Void(true)
+2018-06-14 15:12:27.867  INFO 7584 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /blob/getStream.com.avie.ltd.controller.BlobController.getMp3or4.DefaultGenericTypeNamingStrategy
+2018-06-14 15:12:27.867  INFO 7584 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /blob/getStream.com.avie.ltd.controller.BlobController.getMp3or4.DefaultGenericTypeNamingStrategy
+2018-06-14 15:12:27.868  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:12:27.869  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:12:27.870  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:12:27.870  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:12:27.871  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:12:27.871  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:12:27.871  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:12:27.872  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:12:27.872  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:12:27.872  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:12:27.873  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:12:27.873  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:12:27.874  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:12:27.874  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:12:27.874  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:12:27.875  INFO 7584 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getMp3or4 was blob-controller
+2018-06-14 15:12:27.937  INFO 7584 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9006 (http)
+2018-06-14 15:12:27.945  INFO 7584 --- [main] com.avie.ltd.Application                 : Started Application in 5.677 seconds (JVM running for 6.436)
+2018-06-14 15:12:54.971  INFO 7584 --- [http-nio-9006-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-14 15:12:54.972  INFO 7584 --- [http-nio-9006-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-14 15:12:55.003  INFO 7584 --- [http-nio-9006-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
